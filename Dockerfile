@@ -1,4 +1,4 @@
-FROM golang:1.6
+FROM golang:1.12
 
 RUN go get github.com/google/safebrowsing/cmd/sbserver
 
